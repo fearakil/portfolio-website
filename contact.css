@@ -1,4 +1,80 @@
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202020;
+  padding: 20px;
+  font-family: Arial;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background: #000;
+}
+header::after {
+    content: ''; 
+    display: table;
+    clear: both;
+}
+nav {
+    float: right;
+    padding: 10px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+    position: relative;
+}
+nav a {
+    color: #cccc33;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+  color: #fafafa;
+}
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Russo One', sans-serif;
+  color: #33cc33;
+  font-size: 50px;
+  word-break: break-all;
+  margin: 25px;
+}
+h2 {
+  color: #33cc33;
+}
+hr {
+  border: 1px solid #cc33cc;
+  border-radius: 5px;
+}
+
+.content {
+  background-color: #484848;
+
+  padding: 1px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+p {
+  font-weight: 900;
+  font-size: 20px;
+}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -33,5 +109,4 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #484848;
   padding: 20px;
-  position: absolute ;
 }

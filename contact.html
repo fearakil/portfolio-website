@@ -2,7 +2,6 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="portfolio.css">
 <link rel="stylesheet" href="contact.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap">
 <title>Angelica Gomez's Portfolio</title>
@@ -25,32 +24,28 @@
     <!-- MAIN (Center website) -->
     <div class="main">          
     <h1>
-        Angelica's Contact
+         Contact Angelica
     </h1>
     <hr>
-    <div class="content">
-        <img src="/w3images/p3.jpg" alt="Bear" style="width:100%">
-        <h3>Some Other Work</h3>
-        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-      </div>
-    <h3>Contact Form</h3>
+   
+    <div class="contact">
+        <h3>Contact Form</h3>
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-<div class="contact">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="electronicmail" placeholder="Your email..">
 
-    <label for="email">Email</label>
-    <input type="text" id="email" name="electronicmail" placeholder="Your email..">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </div>
-</div>
+</body>
+</html>

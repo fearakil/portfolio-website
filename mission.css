@@ -62,49 +62,17 @@
     border: 1px solid #cc33cc;
     border-radius: 5px;
   }
-  .row {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column */
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 25%;
-  }
-  
-  /* Clear floats after rows */ 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Content */
+
   .content {
     background-color: #484848;
-    margin-top: 10px;
+
+    padding: 1px;
+    font-weight: 900;
+    font-size: 20px;
   }
-  
-  .card {
-    background-color: #484848;
-    margin-top: 10px;
+
+  p {
+    font-weight: 900;
+    font-size: 20px;
   }
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
+
